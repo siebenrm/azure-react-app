@@ -1,8 +1,10 @@
 import React from 'react';
+import { Message } from './Message';
 
 function App() {
-  const value = 'World!';
-  return <div>Hello {value}</div>;
+  return (
+    <Message></Message>
+  );
 }
 
 export default App;
